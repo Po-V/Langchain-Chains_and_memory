@@ -1,7 +1,13 @@
 # QA Chatbot with Retrieval Augmented Generation (RAG)
 
 This repository contains a Python implementation of a chatbot with retrieval-augmented generation, using GPT model from HuggingFace, LangChain, and Streamlit. 
-The chatbot is capable of answering questions based on a provided corpus of text data.
+The chatbot is capable of answering questions based on a provided corpus of text data. There is no chat memory applied for this iteration, so you won't be able to ask follow-up questions. 
+This chatbot is based on GPT2 which is a very small model. I recommend using a model with more params for better output.
+
+## Screenshot
+![image](https://github.com/Po-V/Langchain-Chains_and_memory/assets/33340822/277f7eea-dcb8-4486-84ee-a60adaca453a)
+
+
 
 ## Features
 
