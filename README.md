@@ -15,4 +15,28 @@ The chatbot is capable of answering questions based on a provided corpus of text
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/chatbot-project.git
+https://github.com/Po-V/Langchain-Chains_and_memory.git
+
+2. Navigate to the project directory:
+
+```bash
+cd Langchain-Chains_and_memory
+
+3. Create a new virtual environment (optional but recommended):
+
+```bash
+python -m venv env
+
+4. Activate the virtual environment (on Windows):
+
+```bash
+env\Scripts\activate
+
+5. Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+
+
+
+
