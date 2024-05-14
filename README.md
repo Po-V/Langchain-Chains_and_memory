@@ -42,5 +42,22 @@ env\Scripts\activate
 pip install -r requirements.txt
 ```
 
+## Usage
+
+1. Run the Streamlit app:
+```bash
+streamlit run QA_Chatbot.py
+```
+3. The chatbot will be accessible at http://localhost:8501 in your web browser.
+4. Enter your questions in the input field, and the chatbot will provide relevant responses based on the provided web page.
+
+## Configuration
+
+You can customize the chatbot's behavior by modifying the following variables in the `QA_Chatbot.py` file:
+
+- `model_name`: Replace this string with the name of the Hugging Face model you want to use.
+- `corpus`: Replace this string with the link of corpus you want to use for the chatbot's knowledge base.
+- `chain_type`: Modify the `chain_type` parameter in the `RetrievalQA` instantiation if you want to use a different chain type.
+- `chunk_size` and `chunk_overlap`: Adjust these parameters in the `CharacterTextSplitter` to control the size and overlap of text chunks during indexing.
 
 
