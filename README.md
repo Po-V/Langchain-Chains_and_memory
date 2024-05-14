@@ -1,13 +1,18 @@
-## Using Langchain chains and Memory
+# QA Chatbot with Retrieval Augmented Generation (RAG)
 
-This is a simple project using models such as Zephyr and Mistral 8x7B-it model from HuggingFace to do chaining using Langchain with memory.
+This repository contains a Python implementation of a chatbot with retrieval-augmented generation, using GPT model from HuggingFace, LangChain, and Streamlit. 
+The chatbot is capable of answering questions based on a provided corpus of text data.
 
-### RAG using Langchain to build chatbot
-#### Steps:
-1) Import libraries
-2) Initialize embedding model to generate emebddings for user queries and documents
-3) Create document and split document into chunks
-4) Create embeddings for chunks and store them in FAISS vector store
-5) Get user input and convert the input to embedding
-6) Use embedding from user input to search most relevant document chunk in vector store.
-7) Display the final result
+## Features
+
+- Retrieval-augmented generation using GPT model from HuggingFace and LangChain
+- FAISS database to store and retrieve external data
+- Streamlit web interface for user interaction
+- Customizable CSS styles for an enhanced chat experience
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/chatbot-project.git
