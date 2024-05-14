@@ -2,4 +2,6 @@ langchain
 huggingface_hub
 streamlit
 transformers[torch]
-python-dotenv
+html2text
+sentence_transformers
+faiss-cpu
