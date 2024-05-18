@@ -21,7 +21,7 @@ This chatbot is based on GPT2 which is a very small model. I recommend using a m
 1. Clone the repository:
 
 ```bash
-https://github.com/Po-V/Langchain-Chains_and_memory.git
+git clone https://github.com/Po-V/Langchain-Chains_and_memory.git
 ```
 
 2. Navigate to the project directory:
